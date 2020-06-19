@@ -16,7 +16,7 @@ $containerMargin: 0 auto;
 .head {
   background-image: url(../images/background.svg);
   background-repeat: no-repeat;
-  height: 100%;
+  width: 100%;
 }
 
 .head-line {
@@ -66,7 +66,7 @@ $containerMargin: 0 auto;
 
 .grid-container-2 {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   width: $containerWidth;
   margin: $containerMargin;
   transform: translateY(55px);
@@ -96,7 +96,7 @@ $containerMargin: 0 auto;
 
 .grid-container-3 {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 35% 30% 35%;
   width: $containerWidth;
   margin: 200px auto;
@@ -144,7 +144,7 @@ $containerMargin: 0 auto;
     height: 518px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 20% 40% 20%;
+    grid-template-rows: 15% 20% 40% 25%;
     width: $containerWidth;
     margin: $containerMargin;
 
@@ -154,7 +154,7 @@ $containerMargin: 0 auto;
       font-family: $paragraphFont;
       grid-column: 1 / 5;
       margin: 15px;
-      transform: translateY(55px);
+      transform: translateY(60px);
     }
 
     .grid-item2 {
@@ -163,6 +163,7 @@ $containerMargin: 0 auto;
       font-family: $titleFont;
       grid-column: 1 / 5;
       margin: 15px;
+      transform: translateY(10px);
     }
 
     .grid-item3,
