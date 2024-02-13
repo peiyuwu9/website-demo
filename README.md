@@ -1,4 +1,4 @@
-# sass-grid-practice
+# Sass Grid Practice
 A quick website for freelance customer.
 
 ## Motivation
