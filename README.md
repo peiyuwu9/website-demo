@@ -1,8 +1,8 @@
-# Sass Grid Practice
+# Website Demo
 A quick website for freelance customer.
 
 ## Motivation
-Create a quick website to practice Sass and CSS Grid.
+Create a quick website built via Sass and CSS Grid.
 
 ## Technologies Used and Why
 **HTML** is used as backbone of the content.  
